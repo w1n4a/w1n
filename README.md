@@ -37,12 +37,6 @@ When you run `w1n -S <package>`, the tool performs three distinct steps:
 curl -LO https://github.com/w1n4a/w1n/releases/download/v1.0.0/w1n && chmod +x w1n && mv w1n ~/.local/bin/
 ```
 
-### For Windows (PowerShell)
-```powershell
-Invoke-WebRequest -Uri ["https://github.com"](https://github.com/w1n4a/w1n/releases/download/v1.0.0/w1n) -OutFile "w1n.exe"
-```
-
-
 ## License
 
 This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**. Permanent copyleft reciprocity applies to all derivative works.
