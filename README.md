@@ -32,13 +32,18 @@ When you run `w1n -S <package>`, the tool performs three distinct steps:
 
 ## Installation
 
-Download the compiled binary for your operating system from the Releases page, give it executable permissions, and move it to your local binary path:
+## Installation
 
+### For Linux / macOS
 ```bash
-# For Linux / Arch Linux systems
-mkdir -p ~/.local/bin
-mv w1n ~/.local/bin/
+curl -LO https://github.com/w1n4a/w1n/releases/download/v1.0.0/w1n && chmod +x w1n && mv w1n ~/.local/bin/
 ```
+
+### For Windows (PowerShell)
+```powershell
+Invoke-WebRequest -Uri ["https://github.com"](https://github.com/w1n4a/w1n/releases/download/v1.0.0/w1n) -OutFile "w1n.exe"
+```
+
 
 ## License
 
