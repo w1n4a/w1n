@@ -8,7 +8,8 @@ json = requests.get(path).json()
 
 if len(args) == 3 and args[1] == '-S' and args[2] in json:
     os.system(json[args[2]])
-    print(f"Download {args[2]}")
+    print(f"{args[2]} is downloaded!")
+
 elif len(args) == 1:
     print("""
         w1n — Cross-platform environment automation manager
