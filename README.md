@@ -17,10 +17,10 @@ A lightweight, cross-platform environment automation and meta-package manager wr
 w1n — Cross-platform environment automation manager
 
 Usage:
-  w1n -S <package_name>      Download and deploy package from the cloud matrix
+  w1n install <package_name>      Download and deploy package from the cloud matrix
 
 Examples:
-  w1n -S crab
+  w1n install crab
 ```
 
 ## How It Works
