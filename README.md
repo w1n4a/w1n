@@ -32,8 +32,6 @@ When you run `w1n -S <package>`, the tool performs three distinct steps:
 
 ## Installation
 
-## Installation
-
 ### For Linux / macOS
 ```bash
 curl -LO https://github.com/w1n4a/w1n/releases/download/v1.0.0/w1n && chmod +x w1n && mv w1n ~/.local/bin/
