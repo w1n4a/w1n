@@ -1,4 +1,4 @@
 {
   "crab":"git clone --depth 1 https://github.com/w1n4a/crab && cd crab && cargo install --path .",
-  "rust":"curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y && source $HOME/.cargo/env"
+  "rust":"curl --proto '=https' --tlsv1.2 -sSf https://rustup.rs | sh -s -- -y && source $HOME/.cargo/env || powershell -Command \"Invoke-WebRequest -Uri 'https://rustup.rs' -OutFile 'rustup-init.exe'; .\\rustup-init.exe -y; Remove-Item 'rustup-init.exe'\"",
 }
