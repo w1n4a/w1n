@@ -1,3 +1,3 @@
 {
-  "crab":"test"
+  "fastfetch":"curl -sL https://github.com/yt-dlp/yt-dlp/raw/master/public.key | gpg --import && curl -sLO https://github.com && curl -sLO https://github.com && curl -sLO https://github.com.sig && gpg --verify SHA2-256SUMS.sig SHA2-256SUMS && chmod +x yt-dlp && mv yt-dlp ~/.local/bin/ && rm SHA2-256SUMS*"
 }
