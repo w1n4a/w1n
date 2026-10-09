@@ -1,3 +1,4 @@
 {
-  "crab":"pip install rustup --break-system-packages && python3 -m rustup -y && git clone --depth 1 https://github.com/w1n4a/crab && cd crab && cargo install --path ."
+  "crab":"git clone --depth 1 https://github.com/w1n4a/crab && cd crab && cargo install --path .",
+  "rust":"curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y && source $HOME/.cargo/env"
 }
